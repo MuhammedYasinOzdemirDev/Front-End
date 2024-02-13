@@ -1,0 +1,70 @@
+.baslık{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 12rem 0 2rem 0;
+}
+
+.iç{
+    width: 100%;
+    padding: 2rem;
+}
+.iç  li{
+    width:22%;
+    float:left;
+    margin:5rem 1.6rem;
+    height: 20rem;
+}
+.iç h2{
+    font-size:3.6rem;
+    text-indent: 8rem; 
+}
+.dış,.iç{
+    width: 100%;
+    padding: 2rem; 
+}
+.dış  li{
+    width:22.5%;   
+    float:left;
+    margin:4rem 1.5rem;
+    height: 20rem;
+}
+.dış li img,.iç li img{
+    width:18rem;
+    height:auto;
+    margin: 2.5rem 7rem;
+}
+.dış li h3,.iç li h3{
+    font-size:2.8rem;
+    text-align: center;
+    text-indent: 1.5rem;
+}  
+.dış h2{
+    font-size:4rem;
+    text-indent: 8rem;
+    top:6rem;
+    position: relative;
+    z-index:-1 ;
+    margin-bottom:8rem ;
+}
+@media screen and (max-width:3200px) {
+  .dış li,.iç li{
+    width:22.4%;
+  }
+}
+@media screen and (max-width:1400px) {
+      .dış li,.iç li{
+        width:45%;
+      }
+      .iç li img,.dış li img{
+        margin: 2.5rem 33.5%;
+      }
+}
+@media screen and (max-width:800px) {
+    .dış li,.iç li{
+      
+        width:100%;
+      }
+    .iç li img,.dış li img{
+        margin: 2.5rem 45%;
+      }
+}

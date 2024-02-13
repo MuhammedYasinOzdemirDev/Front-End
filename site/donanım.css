@@ -1,0 +1,96 @@
+
+
+.container2 {
+    padding: 3rem 12rem;
+    list-style: decimal;
+    font-size:3.5rem;
+    font-weight:600;
+    word-spacing: 0.2rem;
+    letter-spacing: .1rem;   
+}
+.container2 .col h3{
+    margin:1.5rem .5rem;
+    width: 100%;
+}
+.container2 col{
+    margin:1.5rem;
+    padding:2.5rem 4rem; 
+}
+.container2 .col img{
+    width:25rem;
+    height:auto;
+    margin: 3rem 1.5rem; 
+}
+.container2 .col span{
+  float: right;
+  width:75% ;
+  text-align: justify;
+  font-size:2.5rem;
+  font-weight:400;
+  margin:1.5rem 0;
+  text-indent:3rem; 
+}
+@media screen and (max-width:3200px) {
+    .container2 .col span{
+        width:78%;
+        font-size: 2.6rem;
+    }
+    .container2.col img{
+        width:25rem;
+        height:auto;
+      }
+  }
+ 
+@media screen and (max-width:2500px) {
+    .container2 .col span{
+        width:73%;
+        font-size: 2.5rem;
+    }
+    .container2.col img{
+        width:22.5rem;
+        height:auto;
+      }
+  }
+  @media screen and (max-width:1500px) {
+       .container2 .col span{
+        width:69%;
+        font-size: 2.3rem;
+    }
+    .container2.col img{
+        width:22rem;
+        height:auto;
+      }
+  }
+  @media screen and (max-width:1200px) {
+    .container2 .col span{
+        width:64%;
+        font-size: 2rem;
+    }
+    .container2.col img{
+        width:20rem;
+        height:auto;
+      }
+  }
+  @media screen and (max-width:900px) {
+    .container2 .col span{
+        width:100%;
+        font-size: 2.2rem;
+    }
+    .container2.col img,.container2 col span,.container2 .col h3{
+        display: block;
+      }
+      .container2 .col img{
+        margin: 3rem;
+      }
+  }
+  @media screen and (max-width:600px) {
+    .container2 .col span{   
+        font-size: 2.4rem;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .container2 .col span{
+        width:100%;
+        font-size: 2.6rem;
+    }
+  }

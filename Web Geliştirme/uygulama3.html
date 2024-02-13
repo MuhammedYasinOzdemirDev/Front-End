@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+
+        <tbody>
+            <tr>
+                <td><label for="kadi">Kullanıcı Adı: </label></td>
+                <td style="padding-left:15px;">
+                    <input type="text" id="kadi" placeholder="Kullanıcı adınızı giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="eposta">Email: </label></td>
+                <td style="padding-left:15px;">
+                    <input type="email" id="eposta" placeholder="epostanızı giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="paralo">Parola:</label></td>
+                <td style="padding-left:15px;">
+                    <input type="password" id="paralo" placeholder="paralo giriniz">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Kullanıcı Bilgileriniz</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="name">Ad:</label></td>
+                <td style="padding-left:15px;">
+                    <input type="text" id="name" placeholder="Ad giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="surname">Soyad:</label></td>
+                <td style="padding-left:15px;">
+                    <input type="text" id="surname" placeholder="Soyad giriniz">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="city">Şehir:</label></td>
+                <td style="padding-left:15px;"><select id="city">
+                        <option value="34">İstanbul</option>
+                        <option value="6">Ankara</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="cinsiyet">Cinsiyet:</label></td>
+                <td style="padding-left:15px;">
+                    <input type="radio" id="man" name="cinsiyet">
+                    <label for="man">Erkek</label>
+                    <input type="radio" id="woman" name="cinsiyet">
+                    <label for="woman">Kadın</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobi">Hobileriniz</label></td>
+                <td style="padding-left:15px;">
+                    <input type="checkbox" id="muzik">
+                    <label for="muzik">Müzik dinlemek</label>
+                    <input type="checkbox" id="cinema">
+                    <label for="cinema">Sinama</label>
+                    <input type="checkbox" id="kitap">
+                    <label for="kitap">Kitap</label>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    <button type="submit" style="margin-top:5px;">Kaydet</button>
+</body>
+
+</html>

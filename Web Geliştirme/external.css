@@ -1,0 +1,13 @@
+#header {
+    background-color: teal;
+    color: #fff;
+}
+
+.kutu {
+    width: 500px;
+    background-color: darkslateblue;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
