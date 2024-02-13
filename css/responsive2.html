@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /*borderin kapladığı alan yok edildi*/
+        }
+
+        .kutu {
+            width: 25%;
+            background-color: aquamarine;
+            height: 250px;
+            border: 3px solid black;
+            float: left;
+        }
+
+        @media screen and (max-width:1000px) {
+            .kutu {
+                width: 25%;
+            }
+        }
+
+        @media screen and (max-width:750px) {
+            .kutu {
+                width: 33%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            .kutu {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .kutu {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:lightblue;">
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+
+</body>
+
+</html>

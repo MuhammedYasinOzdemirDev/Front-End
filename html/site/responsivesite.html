@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Beginner:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Beginner:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html {
+            font-size: 10px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            background-color: #333;
+            line-height: 1.3;
+            color: #fff;
+
+            font-size: 1.6rem;
+
+        }
+
+        p {
+            letter-spacing: 3px;
+            word-spacing: 4px;
+        }
+
+        .image {
+            background-image: url(f.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 50rem;
+            width: 100%;
+            position: absolute;
+            opacity: 0.88;
+            z-index: -1;
+        }
+
+        .content {
+            padding: 12rem;
+        }
+
+        .content p {
+            font-size: 1.6rem;
+            padding: 1rem 0;
+            margin: 0.5rem;
+        }
+
+        .content h1 {
+            font-size: 3.2rem;
+            padding: 1rem 0;
+            margin: 0.5rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn {
+            color: #fff;
+            background-color: #333;
+            border: 1px solid #666;
+            padding: 0.8rem 1.6rem;
+            font-size: 2.2rem;
+            margin: 0.5rem;
+            display: inline-block;
+            transition: all 0.38s;
+        }
+
+        .btn:hover {
+            color: #333;
+            background-color: white;
+
+        }
+
+        main .content {
+            background-color: white;
+            color: black;
+
+            padding: 3.2rem 0;
+        }
+
+        .image2 {
+
+            width: 26%;
+            display: inline-block;
+            margin: 3.2rem 4rem;
+            overflow: auto;
+            background-color: #fff;
+            padding-bottom: 5rem;
+            color: black;
+        }
+
+        .image2 img {
+            width: 100%;
+            height: auto;
+
+
+        }
+
+        .image2 p {
+
+            font-size: inherit;
+            font-family: inherit;
+            margin-top: 3rem;
+            text-align: center;
+            padding: 1rem 3rem;
+        }
+
+        .info {
+            background-color: white;
+            color: black;
+            padding: 6rem 8rem;
+            width: 100%;
+            display: inline-block;
+        }
+
+        .about {
+
+            background-color: cadetblue;
+            float: left;
+            color: white;
+            width: 50%;
+            padding: 6rem 5rem 0 5rem;
+            float: left;
+            height: 32rem;
+
+        }
+
+        .contact {
+
+            background-color: darkgray;
+            width: 50%;
+
+            padding: 6rem 5rem 0 5rem;
+            float: left;
+            height: 32rem;
+        }
+
+        .powered {
+
+
+            background-color: black;
+            padding: 3rem;
+            display: inline-block;
+            width: 100%;
+        }
+
+        @media screen and (max-width:1200px) {
+            html {
+                font-size: 12px;
+            }
+
+            .contact {
+                width: 50%;
+            }
+
+            .about {
+                width: 50%;
+            }
+
+            .image2 {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            html {
+                font-size: 10px;
+            }
+
+            .contact {
+                width: 100%;
+            }
+
+            .about {
+                width: 100%;
+            }
+
+            .image2 {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            html {
+                font-size: 7.5px;
+            }
+
+            .contact {
+                width: 100%;
+                padding: 6rem 4rem 0 4rem;
+            }
+
+            .about {
+                width: 100%;
+                padding: 6rem 1rem 0 1rem;
+            }
+
+            .image2 {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            html {
+                font-size: 6px;
+            }
+
+            .contact {
+                width: 100%;
+                padding: 5rem 0 0 0;
+            }
+
+            .about {
+                width: 100%;
+                padding: 5rem 0 0 0;
+            }
+
+            .image2 {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="image">
+        </div>
+        <div class="content">
+            <h1>
+                Muhammed Yasin <i class="fa-solid fa-camera"></i> @cozdemir56.yz
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. magni est.</p>
+                <a href="" class="btn">Read More</a>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="content">
+                <h1>Lorem</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste reiciendis est.</p>
+
+            </div>
+        </section>
+        <section>
+            <div class="image2">
+                <img src="f.jpg" alt="">
+                <h3>Photograpy</h3>
+                <p>lorem ipsum dolor sit amet consectetur adip</p>
+            </div>
+            <div class="image2">
+                <img src="f.jpg" alt="">
+                <h3>Photograpy</h3>
+                <p>lorem ipsum dolor sit amet consectetur adip</p>
+            </div>
+            <div class="image2">
+
+                <img src="f.jpg" alt="">
+                <h3>Photograpy</h3>
+                <p>lorem ipsum dolor sit amet consectetur adip</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <h2>İnformation</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Tenetur nam minima ipsa maxime. Voluptates aut sapiente vitae atque. Ullam et dolore
+                quidem quam exercitationem deserunt tenetur eos dicta repellendus cumque.</p>
+        </div>
+        <div class="about">
+            <h2>About us</h2>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, eum. Facere, esse nulla. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Nihil impedit quam velit.</p>
+        </div>
+        <div class="contact">
+            <h2>
+                contact us
+            </h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam atque illo. Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="powered">
+            <p>Lorem, ipsum dolor.</p>
+            <br>
+            <p>powered by <a style="color:green;" href="#"> Muhammed Yasin</a></p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

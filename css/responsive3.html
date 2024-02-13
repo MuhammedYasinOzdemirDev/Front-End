@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /*borderin kapladığı alan yok edildi*/
+        }
+
+        img {
+            max-width: 25%;
+        }
+
+        @media screen and (max-width:1000px) {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width:750px) {
+            img {
+                max-width: 33%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            img {
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:lightblue;">
+    <img src="aa.jpg" alt=""><img src="ab.jpg" alt=""><img src="aa.jpg" alt=""><img src="ab.jpg" alt="">
+</body>
+
+</html>
