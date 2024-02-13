@@ -1,0 +1,22 @@
+let veri;
+
+veri = window.document.head;
+console.log(veri);
+veri = window.document.body;
+console.log(veri);
+veri = window.document.forms;
+console.log(veri);
+veri = window.document.forms[0];
+console.log(veri);
+veri = window.document.forms[0].method;
+console.log(veri);
+veri = window.document.forms[0].id;
+console.log(veri);
+veri = window.document.URL;
+console.log(veri);
+veri = window.document.domain;
+console.log(veri);
+veri = window.document.scripts;
+console.log(veri);
+veri = window.document.scripts[0];
+console.log(veri);

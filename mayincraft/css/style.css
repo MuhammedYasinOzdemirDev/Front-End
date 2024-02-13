@@ -1,0 +1,79 @@
+body {
+	padding-top: 60px;
+	background: #222;
+	color: #fff;
+}
+header {
+	margin-bottom: 30px;
+}
+header h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	color: #fff;
+	margin-bottom: 10px;
+}
+header a {
+	color: orange;
+}
+.modal {
+	color: #333;
+}
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+
+input {
+	width: auto;
+}
+
+.modal {
+	position: absolute;
+	top: 50%;
+	filter: none;
+}
+
+.navbar-fixed-top {
+	position: absolute;
+}
+
+.nav li {
+	display: block;
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	padding: 10px 10px 11px;
+	line-height: 19px;
+}
+
+.navbar .nav li a {
+	color: #777777;
+}
+
+.navbar .nav li a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.nav-pills .active a {
+	color: #ffffff;
+	background-color: #0088cc;
+}
+
+.nav-pills a:hover {
+	text-decoration: none;
+}

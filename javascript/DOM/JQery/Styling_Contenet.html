@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <h2>Lorem, ipsum dolor.</h2>
+    <ul id="liste">
+        <li class="item1">lorem4 </li>
+        <li> lorem4</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ul>
+    <a href="#"></a>
+    <script>
+        $("#liste").css("color", "blue");
+        let li = document.querySelector(".item1")
+        li.style.color = "red";
+
+        var styling = {
+            borderradius: "50px", padding: "30px",
+            border: "solid 2px black"
+        };
+        $("li").css(styling)
+    </script>
+</body>
+
+</html>
